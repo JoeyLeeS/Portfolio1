@@ -1,0 +1,33 @@
+<% include header %>
+
+<h1>Artsy stuff</h1>
+
+
+<div>
+  <a href="contact">Contact</a>
+  <a href="About">Artists</a>
+  </div>
+
+
+<nav>
+
+  <% for (var i = 0; i < categorieen.length; i++) { %>
+    <a href="/categorieen/<%- i %>"><%- categorieen[i] %></a>
+  <% } %>
+</nav>
+
+
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+    <section>
+        <h2>
+          <a class="titel" href=/items/<%- item.id %>><%- item.titel %></a>
+        </h2>
+        <img src="/img/<%- item.afbeeldings %>" alt="<%- item.titel %>">
+        <p><%- item.datum %></p>
+
+    </section>
+    <% teller++;}); %>
+
+
+<% include footer %>

@@ -1,0 +1,74 @@
+
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/cc/ce/cd/cccecdd792f2d636fa978aad2d8e00e6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: 20px 20px;
+  line-height: 1.4em;
+}
+
+section {
+  margin: 5px 0;
+}
+
+img {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin: 10px 0;
+  width: 100%;
+}
+
+a{
+  font-size: 1.2em;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+}
+.titel{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+}
+.subtitel {
+  color: white;
+}
+.derdetitel{
+  font-size: 1em;
+  text-align: right;
+}
+h1 {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 3em;
+  margin: 45px 0;
+  padding-left: 12px;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+
+}
+
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  color: White;
+  font-size: 1.2em;
+  display: inline-block;
+  margin-right: 5px;
+}
